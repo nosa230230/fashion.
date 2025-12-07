@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المنتجات - Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion</h1>
+        <nav>
+            <a href="index.html" class="nav-link">الرئيسية</a>
+            <a href="products.html" class="nav-link active">المنتجات</a>
+            <a href="about.html" class="nav-link">من نحن</a>
+            <a href="contact.html" class="nav-link">اتصل بنا</a>
+            <div id="cart-icon">🛒<span id="cart-count">0</span></div>
+        </nav>
+    </header>
+
+    <div class="search-filter">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="ابحث عن منتج...">
+        </div>
+        <div class="price-filter">
+            <select id="sort-select">
+                <option value="default">ترتيب حسب</option>
+                <option value="price-low">السعر: من الأقل للأعلى</option>
+                <option value="price-high">السعر: من الأعلى للأقل</option>
+                <option value="name">الاسم: أبجدي</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="categories">
+        <button class="category-btn active" data-category="all">الكل</button>
+        <button class="category-btn" data-category="men">الرجالي</button>
+        <button class="category-btn" data-category="women">الحريمي</button>
+        <button class="category-btn" data-category="kids">الأطفال</button>
+    </div>
+
+    <section class="products-section">
+        <div class="products-container">
+            <div class="product-category active" id="all-category"></div>
+            <div class="product-category" id="men-category"></div>
+            <div class="product-category" id="women-category"></div>
+            <div class="product-category" id="kids-category"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1ABZezVgFd/" class="social-link facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/ahmed_abo_ellail?igsh=MTM4d2t0MmxpNnJ1eg==" class="social-link instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/20106297099" class="social-link whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="copyright">© 2025 Fashion. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <button class="back-to-top">↑</button>
+
+    <script src="products.js"></script>
+</body>
+</html>

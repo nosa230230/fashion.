@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Fashionify</h1>
+        <nav>
+            <a href="index.html" class="nav-link">الرئيسية</a>
+            <a href="products.html" class="nav-link">المنتجات</a>
+            <a href="about.html" class="nav-link">من نحن</a>
+            <a href="contact.html" class="nav-link active">اتصل بنا</a>
+            <div id="cart-icon">🛒<span id="cart-count">0</span></div>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>اتصل بنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>01062970999</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@fashionify.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>القاهرة، مصر</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>الأحد - الخميس: 9 ص - 10 م</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>أرسل رسالة</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="الموضوع" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="الرسالة" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1ABZezVgFd/" class="social-link facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/ahmed_abo_ellail?igsh=MTM4d2t0MmxpNnJ1eg==" class="social-link instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/20106297099" class="social-link whatsapp" target="_blank>
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="copyright">© 2025 Fashion. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <button class="back-to-top">↑</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
